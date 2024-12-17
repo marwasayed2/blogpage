@@ -1,0 +1,33 @@
+.btn_tags:hover {
+    background-color:#0a85d1db  !important;
+    color: white !important; 
+    transition: all 0.3s ease-in-out; 
+  }
+  
+  /* تأثير hover للأيقونات */
+  .links i:hover {
+    color: #0a85d1db !important; 
+    transition: color 0.3s ease-in-out;
+  }
+  
+
+.btn_tags {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  
+  .links i {
+    font-size: 20px;
+    transition: color 0.3s ease; 
+  }
+  
+  .breakline {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  

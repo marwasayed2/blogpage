@@ -1,0 +1,236 @@
+body{
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+  }
+
+.title{
+    font-size: 35px;
+    font-weight: 700;
+   
+    font-style: normal;
+
+}
+.title_comment{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+   margin-top: 50px;
+    font-style: normal;
+}
+
+
+.link_post{
+
+ font-size: 25px;
+font-weight: 700;
+color: #000;
+text-decoration: none;
+margin-bottom: 1.5em;
+margin-top: 20px;
+font-style: normal;
+}
+
+
+.breakline{
+    color: #00000043;
+}
+.comment-date{
+    color: #0a85d1; 
+}
+
+  .blockquote {
+    font-size: 28px;
+    background-color: #ebebeb;
+    line-height: 1.6;
+    font-weight: 700;
+    padding: 60px 50px 60px 60px;
+    margin: 50px 0;
+    font-style: normal;
+    text-align: center;
+    border-left: 0;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+
+  }
+  
+  .blockquote::before {
+    color: white; /* لون الرمز (لون أبيض) */
+    content: "\،،"; /* الرمز الذي تريد استخدامه */
+    font-size: 500px; /* تحديد حجم الرمز */
+    position: absolute;
+    right: 45px; /* المسافة من اليسار */
+    top: 40%; /* وضع الرمز في المنتصف العمودي */
+    transform: translateY(-50%); /* لضمان محاذاة الرمز في المنتصف */
+    z-index: -1; /* ضع الرمز في الخلفية */
+  }
+  
+  .pagr {
+    color:#303030db;
+    font-size: 16px;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  
+.btn_tags {
+    background-color: #ebebeb;
+    padding: 8px  20px ;
+    font-size: small;
+    font-weight: bold;
+}
+.btn_tags:hover{
+    background-color: #0a85d1;
+color: white;
+}
+  .comment-img {
+    margin-right: 30px; /* المسافة بين الصورة والنص */
+    width: 100px; 
+    height: 100px;
+  }
+  
+
+  .comment-name {
+    font-size: 22px; /* حجم الخط أكبر */
+    font-weight: bold; /* جعل الاسم غامق */
+    margin-bottom: 5px; /* المسافة بين الاسم والتاريخ */
+  }
+  
+  .comment-date {
+    font-size: 14px; /* حجم الخط أصغر للتاريخ */
+    display: block; /* جعل التاريخ في سطر منفصل أسفل الاسم */
+    margin-bottom: 25px;
+  }
+  
+  .comment-text {
+    font-size: 16px; /* تكبير النص */
+    margin-top: 5px; /* المسافة بين النص والتاريخ */
+    color: #0000009d;
+  }
+  
+
+/* Post Comment Section */
+.post-comment {
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .Post_Comment_h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  /* Blog Title Section */
+.blog-title {
+    background-color: #ebebeb; /* نفس لون الفورم */
+    color: #333; /* درجة أغمق قليلاً */
+    padding: 20px;
+    border-radius: 5px; /* لجعل الحواف مستديرة */
+    text-align: center;
+  }
+  
+  .blog-title a {
+    color: #0a85d1; /* لون الروابط */
+    text-decoration: none; /* إزالة الخط السفلي */
+  }
+  
+  .blog-title a:hover {
+    color: #0056b3; /* لون أغمق عند التمرير */
+  }
+  
+  .blog-title p {
+    margin: 0;
+    font-weight: bold;
+    color: #444; /* درجة أغمق قليلاً */
+  }
+  
+  
+  .form-style input,
+  .form-style textarea {
+    width: 95%;
+    margin: auto;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-style input:focus,
+  .form-style textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-style button {
+    background-color: #0a85d1;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 60px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-style button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional Section */
+  .additional-section {
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    background-color: #ebebeb;
+  }
+  
+.input-group{
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+;}
+  .btn_Subscribe{
+    background-color: #0a85d1;
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+    border: none;
+  }
+  .is-invalid {
+    border-color: red;
+}
+
+.invalid-feedback {
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+.first-sec-main {
+    background-color: #ebebeb;
+}
+
+.is-invalid {
+  border-color: red !important; /* لون الإطار عند وجود خطأ */
+}
+
+#emailError {
+  font-size: 14px;
+}
